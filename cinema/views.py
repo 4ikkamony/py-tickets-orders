@@ -1,6 +1,4 @@
-from datetime import datetime, timedelta
-
-from django.db.models import OuterRef, Count, Subquery, F
+from django.db.models import Count, F
 from rest_framework import viewsets
 
 from cinema.models import (

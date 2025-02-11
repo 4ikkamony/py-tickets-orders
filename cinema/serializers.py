@@ -1,5 +1,3 @@
-import json
-
 from django.db import transaction
 from rest_framework.validators import UniqueTogetherValidator
 from rest_framework import serializers
